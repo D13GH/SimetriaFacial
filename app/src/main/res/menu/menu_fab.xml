@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_photo"
+        android:icon="@mipmap/ic_photo"
+        android:title="Tomar foto">
+    </item>
+
+    <item
+        android:id="@+id/action_image"
+        android:icon="@mipmap/ic_image"
+        android:title="Seleccionar foto">
+    </item>
+</menu>

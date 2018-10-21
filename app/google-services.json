@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "276005429636",
+    "firebase_url": "https://simetriafacial-ac64e.firebaseio.com",
+    "project_id": "simetriafacial-ac64e",
+    "storage_bucket": "simetriafacial-ac64e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276005429636:android:ecab43c439028302",
+        "android_client_info": {
+          "package_name": "one.d13.dev.simetriafacial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276005429636-iioc1strvalk1f4tu0t602mnvljcmqg6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "one.d13.dev.simetriafacial",
+            "certificate_hash": "94a8aedae42adf8b438b2903775727dc145619bb"
+          }
+        },
+        {
+          "client_id": "276005429636-i27h5v0kce1ern1biij01qr94ddo8pln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB82fOnDtoIdte20Gbekegq6r3zk-oZvJo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276005429636-i27h5v0kce1ern1biij01qr94ddo8pln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

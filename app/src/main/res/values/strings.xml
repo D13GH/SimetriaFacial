@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Simetria Facial</string>
+    <string name="title_activity_dashboard">ActivityDashboard</string>
+</resources>
