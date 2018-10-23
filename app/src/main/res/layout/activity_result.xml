@@ -38,18 +38,22 @@
                     android:layout_above="@id/LLy_Controls"
                     android:gravity="center">
 
-                    <ImageView
-                        android:id="@+id/ImgView"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        app:srcCompat="@drawable/ic_imagen" />
+                    <!--<ImageView-->
+                    <!--android:id="@+id/ImgView"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--app:srcCompat="@drawable/ic_imagen" />-->
 
-                    <one.d13.dev.simetriafacial.Helper.GraphicOverlay
-                        android:id="@+id/graphic_overlay_img"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                    <!--<one.d13.dev.simetriafacial.Helper.GraphicOverlay-->
+                    <!--android:id="@+id/graphic_overlay_img"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--app:srcCompat="@drawable/ic_imagen"/>-->
 
-                    </one.d13.dev.simetriafacial.Helper.GraphicOverlay>
+                    <one.d13.dev.simetriafacial.component.FaceView
+                        android:id="@+id/faceView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
 
                 </RelativeLayout>
 

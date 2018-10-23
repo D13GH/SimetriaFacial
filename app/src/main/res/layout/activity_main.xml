@@ -10,7 +10,9 @@
         <com.wonderkiln.camerakit.CameraView
             android:id="@+id/camera_view"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            app:ckFocus="tapWithMarker"
+            app:ckJpegQuality="100">
         </com.wonderkiln.camerakit.CameraView>
 
     <one.d13.dev.simetriafacial.Helper.GraphicOverlay

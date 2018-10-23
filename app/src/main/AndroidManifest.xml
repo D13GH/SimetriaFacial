@@ -29,7 +29,11 @@
             android:name=".ActivityDashboard"
             android:label="@string/title_activity_dashboard"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ActivityResult"></activity>
+        <activity android:name=".ActivityResult">
+            <meta-data
+                android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+                android:value="face" />
+        </activity>
     </application>
 
 </manifest>
