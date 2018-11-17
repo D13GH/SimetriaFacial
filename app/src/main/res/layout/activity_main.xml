@@ -42,4 +42,71 @@
         android:layout_marginBottom="159dp"
         android:text="TextView" />
 
+    <LinearLayout
+        android:id="@+id/LLy_Results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/graphic_overlay"
+        android:layout_alignEnd="@+id/graphic_overlay"
+        android:layout_alignBottom="@+id/graphic_overlay"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/TxV_AB_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ancho Bipular"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+        <TextView
+            android:id="@+id/TxV_AB_r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ancho Bipular (resultado)" />
+
+        <TextView
+            android:id="@+id/TxV_AFH_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ancho Facial Horizontal"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+        <TextView
+            android:id="@+id/TxV_AFH_r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ancho Facial Horizontal (resultado)" />
+
+        <TextView
+            android:id="@+id/TxV_ABC_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ancho Bicomisural"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+        <TextView
+            android:id="@+id/TxV_ABC_r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ancho Bicomisural (resultado)" />
+
+        <TextView
+            android:id="@+id/TxV_SG_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simetria General"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+        <TextView
+            android:id="@+id/TxV_SG_r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simetria General (resultado)" />
+    </LinearLayout>
+
 </RelativeLayout>
