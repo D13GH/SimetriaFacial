@@ -34,14 +34,14 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="250dp"
                     android:gravity="center_vertical|center_horizontal"
                     android:orientation="vertical">
 
                     <RelativeLayout
                         android:id="@+id/RltvLy_Img"
-                        android:layout_width="match_parent"
-                        android:layout_height="300dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
                         android:layout_above="@id/LLy_Controls">
 
                         <ImageView
@@ -58,11 +58,6 @@
                             android:layout_alignParentTop="true"
                             app:srcCompat="@drawable/ic_imagen" />
 
-                        <!--<one.d13.dev.simetriafacial.component.FaceView-->
-                        <!--android:id="@+id/faceView"-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent" />-->
-
                     </RelativeLayout>
                 </LinearLayout>
 
@@ -73,12 +68,61 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/TxV_AB_t"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="Ojos"
-                        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+                        android:text="Ancho Bipular"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5" />
+
+                    <TextView
+                        android:id="@+id/TxV_AB_r"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ancho Bipular (resultado)"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+                    <TextView
+                        android:id="@+id/TxV_AFH_t"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ancho Facial Horizontal"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5" />
+
+                    <TextView
+                        android:id="@+id/TxV_AFH_r"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ancho Facial Horizontal (resultado)"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+                    <TextView
+                        android:id="@+id/TxV_ABC_t"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ancho Bicomisural"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5" />
+
+                    <TextView
+                        android:id="@+id/TxV_ABC_r"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ancho Bicomisural (resultado)"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+                    <TextView
+                        android:id="@+id/TxV_SG_t"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Simetria General"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5" />
+
+                    <TextView
+                        android:id="@+id/TxV_SG_r"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Simetria General (resultado)"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
                 </LinearLayout>
             </LinearLayout>
 
